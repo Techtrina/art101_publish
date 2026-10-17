@@ -1,0 +1,118 @@
+
+
+body {
+
+color:#430000;
+background-color: #85d2f3;
+
+}
+
+.widecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+a:link {
+    color: #430000;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #430000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(175, 50, 1);
+}
+a:active {
+    text-decoration: none;
+    color: #b70000;
+}
+
+/* Normal state for these specific links */
+a.ref-link {
+    color: rgb(255, 246, 238); /* Change these numbers to your preferred RGB */
+}
+
+/* Optional: Hover state so users know it's a link */
+a.ref-link:hover {
+    color: rgb(179, 97, 29); 
+}
+
+/* particicpation log text  */
+td, th {
+    color: #a03a2d;
+}
+
+
+
+.nav_pad{
+  padding-top:40px;
+}
+.section{
+  padding-top: 30px;
+  padding-bottom:40px;
+
+}
+
+.mid-section{
+  padding-top: 120px;
+  padding-bottom:40px;
+
+}
+
+.key {
+  font-weight:bold;
+
+
+}
+.stripe {
+ background-color: #4d2a14;
+}
+
+
+ul.disc{
+  list-style: disc;
+  margin-left: 15px
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right:10px;
+}
+
+
+.statement_text {
+
+    background-color: rgb(255, 248, 244);
+    padding: 8px;
+    margin-top: 20px;
+    border: 1px dashed rgb(166, 33, 0);
+}
+
+
+.additional_text {
+    color: rgb(2255, 249, 246); 
+    font-size: 1.1em;
+    background-color: rgb(66, 40, 36);
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px dashed rgb(255, 249, 246);
+}
+
+.ai_text {
+    color: rgb(66, 40, 36); 
+    background-color: rgb(255, 249, 246);
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px dashed black;
+}
